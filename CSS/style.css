@@ -45,6 +45,10 @@ ul.bullet {
   list-style-position: inside;
 }
 
+p.center {
+  text-align: center;
+}
+
 p {
   margin: 0.5rem 0;
 }
@@ -309,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
 }
 
