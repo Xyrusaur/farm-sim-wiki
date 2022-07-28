@@ -95,6 +95,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem 1.5rem;
 }
 
+.input-text {
+  font-size: medium;
+}
+
 .btn-light {background: var(--light-color);}
 .btn-primary {background: var(--primary-color);}
 .btn-secondary {background: var(--secondary-color);}
@@ -313,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
 }
 
